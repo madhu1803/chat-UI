@@ -247,3 +247,8 @@ body {
         height: 80vh !important;
     }
 }
+
+.custom_nav_bar .nav_icons button {
+  background-color: transparent;
+  border: none;
+}
