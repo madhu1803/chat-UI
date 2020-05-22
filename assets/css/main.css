@@ -258,3 +258,17 @@ body {
     background-color: transparent;
     border: none;
 }
+
+.message_indicator_box.company {
+    position: relative;
+}
+
+.message_indicator_box.company p {
+    margin-top: 0;
+}
+
+.message_indicator_box.company small {
+    position: absolute;
+    top: 40px;
+    left: 65px;
+}
