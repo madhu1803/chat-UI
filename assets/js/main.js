@@ -67,3 +67,17 @@ function formInput() {
     content: "input",
   }).then((value) => {});
 }
+
+// notification modal functions
+
+//minimize modal
+$("#minimize-btn").click(function () {
+  $(".notification-modal-class").toggleClass("d-none");
+});
+
+//on load minimize notification modal
+$("#minimize-btn").click();
+
+function toggleAnnouncementsModal() {
+  $("#notification-modal-dialog").toggleClass("d-none");
+}

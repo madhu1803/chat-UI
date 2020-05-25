@@ -61,10 +61,12 @@
                             <i class="fas fa-comments"></i>
                             <p>Test Name 2</p>
                         </div>
-                        <div class="message_indicator_box" onclick="formInput()">
-                            <i class="fas fa-comments"></i>
-                            <p>Test Name 3</p>
-                        </div>
+                        <a href="#">
+                            <div class="message_indicator_box" onclick="formInput()">
+                                <i class="fas fa-comments"></i>
+                                <p>Test Name 3</p>
+                            </div>
+                        </a>
                     </div>
                     <!-- ============================ TODO: dummy end ============================ -->
 
@@ -233,6 +235,91 @@
                 </div>
             </div>
             <!-- online users screen -- end -->
+        </div>
+    </div>
+
+<!-- notification modal  -->
+<div class="modal-dialog modal-dialog-scrollable " role="document" id="notification-modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" id="notification-modal-header">
+                <h5 class="modal-title">Announcements</h5>
+                <button id="minimize-btn"> <i class='fa fa-minus'></i> </button>
+                <button type="button" class="close" onclick="toggleAnnouncementsModal()">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body notification-modal-class" id="notification-modal-body">
+                <div class="list-group" id="list-messages">
+                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start ">
+                        <div class="d-flex w-100 justify-content-between">
+                            <div class="media w-100 mb-3">
+                                <div class="media-body">
+                                    <div class="notification-username mb-2 px-3 py-2">
+                                        <p class="text-small mb-0 text-white">Ashish chaudary</p>
+                                    </div>
+                                    <div class="bg-white rounded py-2 px-3 mb-2">
+                                        <p class="text-small mb-0 text-muted">Test which
+                                            is a new approach all
+                                            solutions</p>
+                                    </div>
+                                    <p class="small text-muted  ml-3">12:00 PM | Aug 13</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                            <div class="media w-100 mb-3">
+                                <div class="media-body  ">
+                                    <div class="notification-username mb-2 px-3 py-2 text-white">
+                                        <p class="text-small mb-0 text-white">Ashish chaudary</p>
+                                    </div>
+                                    <div class="bg-white rounded py-2 px-3 mb-2">
+                                        <p class="text-small mb-0 text-muted">Test which
+                                            is a new approach all
+                                            solutions</p>
+                                    </div>
+                                    <p class="small text-muted ml-3">12:00 PM | Aug 13</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                            <div class="media w-100 mb-3">
+                                <div class="media-body ">
+                                    <div class="notification-username mb-2 px-3 py-2 text-white">
+                                        <p class="text-small mb-0 text-white">Ashish chaudary</p>
+                                    </div>
+                                    <div class="bg-white rounded py-2 px-3 mb-2">
+                                        <p class="text-small mb-0 text-muted">Test which
+                                            is a new approach all
+                                            solutions</p>
+                                    </div>
+                                    <p class="small text-muted  ml-3">12:00 PM | Aug 13</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                            <div class="media w-100 mb-3">
+                                <div class="media-body">
+                                    <div class="notification-username mb-2 px-3 py-2 text-white">
+                                        <p class="text-small mb-0 text-white">Ashish chaudary</p>
+                                    </div>
+                                    <div class="bg-white rounded py-2 px-3 mb-2">
+                                        <p class="text-small mb-0 text-muted ">Test which
+                                            is a new approach all
+                                            solutions</p>
+                                    </div>
+                                    <p class="small text-muted ml-3">12:00 PM | Aug 13</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 

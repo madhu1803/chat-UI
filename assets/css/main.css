@@ -259,3 +259,53 @@ body {
     top: 40px;
     left: 65px;
 }
+
+a {
+    text-decoration: none !important;
+}
+/*announcements modal*/
+/* notification modal */
+#notification-modal-dialog {
+  min-width: 280px;
+  max-width: 200px;
+  position: fixed;
+  bottom: -15px;
+  right: 10px;
+  max-height: 88vh;
+  z-index: 1000;
+}
+
+#notification-modal-header {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  color: #2c5ed3 !important;
+
+}
+
+#minimize-btn {
+  position: absolute;
+  right: 40px;
+  color: #2C5ED3 !important;
+}
+
+.list-group-item,
+.list-group-item:first-child {
+  border: none !important;
+  padding: 0 !important;
+}
+
+.notification-username {
+  background-color: #2C5ED3;
+}
+
+@media only screen and (max-width: 450px) {
+  #notification-modal-dialog {
+    max-width: 100%;
+    right: 5px;
+    left: 5px;
+  }
+  
+  .close {
+  color: #2c5ed3 !important;
+  opacity: 1;
+}
